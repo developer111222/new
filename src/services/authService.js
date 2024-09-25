@@ -1,7 +1,7 @@
 // src/services/authService.js  
 import axios from 'axios';  
 
-const API_URL = 'http://localhost:5000/api/auth';  
+const API_URL = 'https://blog-backend-enqb.onrender.com/api/auth';  
 
 const loginWithGoogle = () => {  
     window.open(`${API_URL}/google`, '_self');  
